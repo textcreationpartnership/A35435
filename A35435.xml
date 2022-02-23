@@ -1,0 +1,973 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cupids garland set round about with gilded roses containing many pleasant songs and sonnets newly written.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1674</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A35435</idno>
+            <idno type="STC">Wing C7602</idno>
+            <idno type="STC">ESTC R20355</idno>
+            <idno type="EEBO-CITATION">12259123</idno>
+            <idno type="OCLC">ocm 12259123</idno>
+            <idno type="VID">57752</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A35435)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 57752)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 178:16)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Cupids garland set round about with gilded roses containing many pleasant songs and sonnets newly written.</title>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E. Crowch for F. Coles, T. Vere, and J. Wright,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1674.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>English poetry --  Early modern, 1500-1700.</term>
+               <term>Songs, English --  Texts.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-08</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2012-08</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:57752:1"/>
+            <pb facs="tcp:57752:1"/>
+            <p>Cupids Garland.</p>
+            <figure>
+               <p>SET Round about WITH Gilded Roſes, Containing many pleaſant Songs and Sonnets. Newly Written.</p>
+            </figure>
+            <q>
+               <l>—Omnia Amator,</l>
+               <l>Debuerat ſertis implicuiſſa comat.</l>
+            </q>
+            <p>
+               <hi>London,</hi> Printed by <hi>E. Crowch,</hi> for <hi>F. Colet, T. Vere,</hi> and <hi>J. Wright,</hi> 1674.</p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:57752:2"/>
+            <head>The Contents.</head>
+            <list>
+               <item>A Song of King <hi>Edward</hi>'s wooing the fair Maid of <hi>London.</hi>
+               </item>
+               <item>Her Anſwer.</item>
+               <item>A Royal Song of the Red Roſe and the White.</item>
+               <item>The Life and Death of the renowned Gal<g ref="char:EOLhyphen"/>lant, <hi>Thomas Stukley.</hi>
+               </item>
+               <item>A Sonnet of a Chaſte Lover.</item>
+               <item>A Paſtoral Song.</item>
+               <item>A lame<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>table end of <hi>Shor</hi>'s Wife, ſome time Concubine to King <hi>Edward</hi> the 4th.</item>
+               <item>A Song of a Begger and a King.</item>
+               <item>A Lamentable Song of the fall of the Dutcheſs of <hi>Gloceſter.</hi>
+               </item>
+               <item>A Shepherds Sorrow becauſe he could not Wooe.</item>
+               <item>A Song of Lord <hi>Wigmore,</hi> and the fair maid of <hi>Dunſmore</hi> in <hi>Warwick-ſhire.</hi>
+               </item>
+               <item>The ſad Complaint of fair <hi>Iſabel,</hi> for the loſs of her Honour.</item>
+               <item>The Story of <hi>Ill-May-Day.</hi>
+               </item>
+               <item>A Song and Verſes made upon a Sigh.</item>
+            </list>
+            <l>
+               <hi>Cupids Garland</hi> here is ſet</l>
+            <l>with gilded Roſes round;</l>
+            <l>And if the Reader likes of it,</l>
+            <l>the <hi>Garland</hi> then is Crown'd.</l>
+         </div>
+      </front>
+      <body>
+         <div type="song">
+            <pb facs="tcp:57752:2"/>
+            <head>A Courtly new Song ſhewing how King <hi>Edward</hi> wooed the fair maid of LONDON.</head>
+            <opener>To the Tune of, <hi>Dulcina.</hi>
+            </opener>
+            <lg>
+               <l>FAir Angel, Pearl of Beauty,</l>
+               <l>thou that art my hearts ſole treaſure</l>
+               <l>Thou my Subject, art my duty,</l>
+               <l>yet I muſt obey thy pleaſure:</l>
+               <l>When Love doth ſway,</l>
+               <l>Kings muſt obey,</l>
+               <l>And to his Scepter yeilding be:</l>
+               <l>Swéet Maiden bright,</l>
+               <l>Grant my delight,</l>
+               <l>
+                  <hi>And come ſweet Virgin unto me.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Gallant Lady let my Love</l>
+               <l>ſo much favour once obtain,</l>
+               <l>That you would my ſuit approve,</l>
+               <l>pittying me when I complain:</l>
+               <l>Think on the Court,</l>
+               <l>What Masks, and Sport,</l>
+               <l>And Pleaſures new invented be,</l>
+               <pb facs="tcp:57752:3"/>
+               <l>All theſe are thine,</l>
+               <l>Be thou but mine,</l>
+               <l>
+                  <hi>And come ſweet Virgin unto me.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Art thou not (Fair Love) contented,</l>
+               <l>with thoſe offers <hi>I</hi> do make?</l>
+               <l>Your Love ſhall never be repented,</l>
+               <l>if my promiſe you dare take,</l>
+               <l>my Royal word</l>
+               <l>It will afford.</l>
+               <l>If that thou wilt but loving be,</l>
+               <l>Thou ſhalt be ſéen</l>
+               <l>Like <hi>Englands</hi> Quéen,</l>
+               <l>
+                  <hi>Then come ſweet Virgin unto me.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Be not reſolved a Maid to dye,</l>
+               <l>For where Beauty he doth ſpye,</l>
+               <l>chaſtity is ne're intended,</l>
+               <l>Some Shepheards daughter</l>
+               <l>May chance hereafter,</l>
+               <l>Through all her life a Maid to be,</l>
+               <l>But Ladies bright</l>
+               <l>Should love delight,</l>
+               <l>
+                  <hi>Then come ſweet Virgin unto me.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>You ſhall purchaſe great renown,</l>
+               <l>why ſhould you then be ſo cruel,</l>
+               <l>And upon King <hi>Edward</hi> frown,</l>
+               <pb facs="tcp:57752:3"/>
+               <l>that eſtéems your love a Iewel:</l>
+               <l>Oh do but grant</l>
+               <l>What I do want,</l>
+               <l>And to my gentle ſuit agrée,</l>
+               <l>Do thou obey</l>
+               <l>That I may ſay,</l>
+               <l>
+                  <hi>Welcome ſweet Virgin unto me.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>The fair Maid of Londons Anſwer to King <hi>Edwards</hi> Wanton Love.</head>
+            <opener>To the ſame Tune.</opener>
+            <lg>
+               <l>KIng <hi>Edward</hi> know it is in vain</l>
+               <l>thus with faireſt words to wooe me</l>
+               <l>From dignities <hi>I</hi> will refrain,</l>
+               <l>leſt courtly honour do undo me,</l>
+               <l>like to <hi>Jane Shore,</hi>
+               </l>
+               <l>and many more,</l>
+               <l>Who many happy daies did ſée,</l>
+               <l>but ſhe did dye</l>
+               <l>in miſery,</l>
+               <l>
+                  <hi>Then let me ſtill a Vi gin be.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Hope of honour ſhall not tempt</l>
+               <l>me to yéeld to your deſire;</l>
+               <l>With my eſtate I am content,</l>
+               <l>nor do <hi>I</hi> wiſh to riſe yet higher,</l>
+               <l>My ſpotleſs fame</l>
+               <l>
+                  <hi>I</hi> will maintain.</l>
+               <pb facs="tcp:57752:4"/>
+               <l>And unto heaven bear with me,</l>
+               <l>And ſo to the end,</l>
+               <l>I am your friend,</l>
+               <l>
+                  <hi>But ſtill a Virgin I will be.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>A Royal Song of the red Roſe and the white united together by the happy Marriage of King <hi>Henry</hi> the Seventh, and <hi>Ellzabeth Plantaginet,</hi> Daughter to <hi>Edward</hi> the 4th. from whom King <hi>James</hi> (of Famous memory) lineally deſcended.</head>
+            <opener>To the Tune of, <hi>The blazing Torch.</hi>
+            </opener>
+            <lg>
+               <l>WHen as the Earth did bluſh with blood</l>
+               <l>of Men in Battel ſlain,</l>
+               <l>Whilſt <hi>York</hi> againſt <hi>Lancaſter</hi> ſtood.</l>
+               <l>then <hi>Henry</hi> did obtain</l>
+               <l>His Right at laſt, and did beat down</l>
+               <l>King <hi>Richard</hi> in the Field:</l>
+               <l>Who being kill'd did looſe his Crown,</l>
+               <l>but never would he yeild.</l>
+            </lg>
+            <lg>
+               <l>Then <hi>Henry</hi> (from the ancient Houſe</l>
+               <l>of <hi>Lancaſter</hi> deſcended)</l>
+               <l>Did marry with the Houſe of <hi>York,</hi>
+               </l>
+               <l>and ſo the difference ended;</l>
+               <l>For <hi>York</hi> who did the White Roſe give,</l>
+               <l>was with the Red Roſe plighted:</l>
+               <pb facs="tcp:57752:4"/>
+               <l>And by this happy Marriage ſo,</l>
+               <l>theſe Roſes were Vnited.</l>
+            </lg>
+            <lg>
+               <l>Theſe Royal Roſes buding forth,</l>
+               <l>that <hi>Henry</hi> ſoon conſented,</l>
+               <l>For to advance his Daughters worth,</l>
+               <l>(which <hi>England</hi> ne're repented)</l>
+               <l>That ſhe ſhould be great <hi>Scotlands</hi> quéen</l>
+               <l>which Match the Lord befrinded,</l>
+               <l>So that King <hi>James</hi> of worthy ſame,</l>
+               <l>from that ſame Quéen deſcended.</l>
+            </lg>
+            <lg>
+               <l>Thus all the Wars at laſt did ceaſe,</l>
+               <l>by this moſt Royal Pair:</l>
+               <l>This Land doth now enjoy ſwéet peace,</l>
+               <l>by this bright Lady fair:</l>
+               <l>And now ſtill in remembrance that</l>
+               <l>theſe Roſes were conjoyned,</l>
+               <l>The Roſes yet in Royal Armes,</l>
+               <l>are with the Crown combined.</l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>The famous life and death of the renowned Engliſh Gallant <hi>Thomas Stukely,</hi> who lived in the time of Queen <hi>Elizabeth,</hi> and ended his dayes in a Battel of three Kings in <hi>Barbary.</hi>
+            </head>
+            <opener>To the Tune of, <hi>Henries</hi> going to <hi>Bullain.</hi>
+            </opener>
+            <lg>
+               <l>IN <hi>England</hi> in the Weſt.</l>
+               <l>Where <hi>Phoebus</hi> takes his reſt,</l>
+               <pb facs="tcp:57752:5"/>
+               <l>There luſty <hi>Stukely</hi> he was born.</l>
+               <l>By birth he was a Clothiers Son,</l>
+               <l>Deeds of wonder he hath done,</l>
+               <l>Which with laſting praiſe his name a<g ref="char:EOLhyphen"/>dorn:</l>
+            </lg>
+            <lg>
+               <l>Luſty <hi>Stukely</hi> he was nam'd,</l>
+               <l>And much honour gain'd,</l>
+               <l>For ſo reports the ſtory of his life,</l>
+               <l>He married with a <hi>London</hi> Dame,</l>
+               <l>Daughter to an Alderman,</l>
+               <l>And had great ſtore of treaſure with his wife.</l>
+            </lg>
+            <lg>
+               <l>But he in riot ſoon</l>
+               <l>Her portion did conſume,</l>
+               <l>Which ſtruck old <hi>Curtis</hi> ſo unto the heart</l>
+               <l>Who was his wives own Father,</l>
+               <l>That he with age, or rather,</l>
+               <l>With ſorrow did his life depart.</l>
+            </lg>
+            <lg>
+               <l>When he was laid in earth,</l>
+               <l>
+                  <hi>Stukely</hi> began his mirth</l>
+               <l>His golden Angels then began to fly,</l>
+               <l>He night by night in pleaſure,</l>
+               <l>Did melt away his treaſure,</l>
+               <l>And wiſhed that his loving wife would dye.</l>
+            </lg>
+            <lg>
+               <l>While vice he maintain'd</l>
+               <l>His wants at laſt conſtrained</l>
+               <l>Him to ſell the Pavements of his yard,</l>
+               <pb facs="tcp:57752:5"/>
+               <l>Which with blocks of Tin was lin'd</l>
+               <l>Old <hi>Curtis</hi> left the ſame behind,</l>
+               <l>But he the ſame did ne're the more re<g ref="char:EOLhyphen"/>gard.</l>
+            </lg>
+            <lg>
+               <l>His wife hereat lamented</l>
+               <l>And was much diſcontented,</l>
+               <l>Make much of me dear Husband, ſhe did cry</l>
+               <l>Ile make much more ſwéet-heart of the</l>
+               <l>Than any other ſhall, quoth he,</l>
+               <l>Ile ſell thy cloaths, and ſo from <hi>England</hi> fly.</l>
+            </lg>
+            <lg>
+               <l>So firſt he went to <hi>Italy.</hi>
+               </l>
+               <l>And when he came to <hi>Barbary,</hi>
+               </l>
+               <l>Whereby his valour he did ſoon obtain</l>
+               <l>The Standard Royal for to bear,</l>
+               <l>While in one Field there did appear</l>
+               <l>Thrée Kings their right for to maintain</l>
+            </lg>
+            <lg>
+               <l>The Sun did ne're behold</l>
+               <l>A battel fought more bold,</l>
+               <l>And afterwards brave <hi>Stukely</hi> there was ſlain</l>
+               <l>By thoſe <hi>Ital ans</hi> of great worth,</l>
+               <l>Which <hi>Stukely</hi> to the field drew forth,</l>
+               <l>And thus unto himſelf he did complain.</l>
+            </lg>
+            <lg>
+               <l>Was <hi>I</hi> mad, or did <hi>I</hi> rade,</l>
+               <l>Thus to ſéek a Forraign grave,</l>
+               <l>And at home abuſe my loving wife,</l>
+               <l>
+                  <hi>Stukely</hi> on the ground now lies</l>
+               <pb facs="tcp:57752:6"/>
+               <l>Like to <hi>Mars</hi> his Sacrifice,</l>
+               <l>And bléeding here muſt end my wretched life,</l>
+               <l>And with this word his breath</l>
+               <l>was ſtopped ſoon by death:</l>
+               <l>His empty body lay upon the ground,</l>
+               <l>which buried once, they did make</l>
+               <l>a royal Tomb for <hi>Stukelies</hi> ſake;</l>
+               <l>And ſtill his noble valour is renown'd.</l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>A Paſtoral Song, or diſcourſe between a Gentleman and a Shepherd, concerning Love.</head>
+            <opener>To the Tune of, <hi>The Ladies fall.</hi>
+            </opener>
+            <lg>
+               <l>AS <hi>I</hi> did walk one day abroad,</l>
+               <l>
+                  <hi>I</hi> ſpy'd a Shepherds Swain,</l>
+               <l>Who often ſtoopt to gather Flowers,</l>
+               <l>and ſéem'd to take much pain,</l>
+               <l>And in his hand a basket round,</l>
+               <l>compos'd of Willows ſmall,</l>
+               <l>Wherein he put the flowers which were</l>
+               <l>of vertues ſeveral.</l>
+            </lg>
+            <lg>
+               <l>But when I nearer to him came,</l>
+               <l>I asked him (good Father)</l>
+               <l>What is the reaſon moveth you,</l>
+               <l>theſe Flowers for to gather;</l>
+               <l>But he then with a heavy look,</l>
+               <l>did thus to me reply.</l>
+               <pb facs="tcp:57752:6"/>
+               <l>Theſe Flowers <hi>I</hi> do gather Sir,</l>
+               <l>
+                  <hi>to cure Loves malady.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Nay then quoth <hi>I,</hi> you are deceiv'd,</l>
+               <l>if you do think good Swain,</l>
+               <l>By help and vertue of theſe flowers,</l>
+               <l>to cure Loves inward pain.</l>
+               <l>Therefore to get thy ſwéet hearts Love</l>
+               <l>go back again and try,</l>
+               <l>For their is none but Doctor <hi>Jone,</hi>
+               </l>
+               <l>
+                  <hi>can cure Loves malady.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Then by the Maſs, the Shepheard ſaid,</l>
+               <l>my true Loves name is <hi>Jone,</hi>
+               </l>
+               <l>I will to yonder hill repair,</l>
+               <l>and to her make my moan;</l>
+               <l>So going back the Shepheards Swain,</l>
+               <l>with his Swéet heart did lye,</l>
+               <l>Thus Doctor <hi>Jone</hi> did help his moan,</l>
+               <l>
+                  <hi>and cure Loves malady.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>A new Song of a chaſte Lover.</head>
+            <opener>To the Tune of, Away to Twiver.</opener>
+            <lg>
+               <l>VVHen <hi>I</hi> did <hi>Phillis</hi> naked ſpy,</l>
+               <l>
+                  <hi>I ſhut mine eyes and would not ſee</hi>
+               </l>
+               <l>Thoſe beauties which did naked lye,</l>
+               <l>
+                  <hi>was ever a Lover like to me;</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb facs="tcp:57752:7"/>
+               <l>When ſhe her Mantle did unfold,</l>
+               <l>
+                  <hi>I ſhut mine eyes and would not ſee.</hi>
+               </l>
+               <l>Loves flower which then <hi>I</hi> might behold</l>
+               <l>
+                  <hi>was ever Lover like to me.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>While ſhe bathed in a ſilver ſtream,</l>
+               <l>
+                  <hi>I ſhut mine eyes and would not ſee,</hi>
+               </l>
+               <l>But lay ſtill in a pleaſant dream,</l>
+               <l>
+                  <hi>was ever Lover like to me.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And when like <hi>Diana</hi> ſhe came forth</l>
+               <l>
+                  <hi>I ſhut mine eyes and would not ſee,</hi>
+               </l>
+               <l>The Golden fruit of precious worth,</l>
+               <l>
+                  <hi>was ever Lover like to me.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>But when ſhe cloathed had each part,</l>
+               <l>
+                  <hi>I opned then my eyes to ſee,</hi>
+               </l>
+               <l>If that <hi>I</hi> could but win her heart,</l>
+               <l>
+                  <hi>for that was only lov'd of me.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="sonnet">
+            <head>A new Sonnet, ſetting forth the miſerable and wretched end of <hi>Shores</hi> Wife, who was ſometime Concubine to King <hi>Edward</hi> the Fourth.</head>
+            <opener>To the Tune of, <hi>I ſigh and ſob,</hi> &amp;c.</opener>
+            <lg>
+               <l>YOu that are in your blooming years</l>
+               <l>Whoſe beauty to the world appears,</l>
+               <l>Come learn by me (who am <hi>Shores</hi> wife)</l>
+               <l>To lead a chaſte and honeſt life.</l>
+               <pb facs="tcp:57752:7"/>
+               <l>And to preſerve your ſpotleſs fame,</l>
+               <l>Leſt afterwards you do complain,</l>
+               <l>For when King <hi>Edward</hi> rul'd this Land</l>
+               <l>
+                  <hi>I</hi> could his Royal Crown command,</l>
+               <l>But after he did chance to dye,</l>
+               <l>I was expos'd to miſery.</l>
+               <l>And cruelty turn'd out of door,</l>
+               <l>All men did hate the name of <hi>Shore.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And for to publiſh my leud ſin,</l>
+               <l>I did do Pennance to begin</l>
+               <l>My ſhame, and carryed by command</l>
+               <l>A burning Tapor in my hand,</l>
+               <l>Thus when that I was once caſt down,</l>
+               <l>On my hard fate, each one did frown.</l>
+            </lg>
+            <lg>
+               <l>Thus all my joyes did fickle prove,</l>
+               <l>Which <hi>I</hi> did reap by <hi>Edwards</hi> love,</l>
+               <l>A Princes Paragon I was,</l>
+               <l>But now conſtrain'd to beg, Alaſs!</l>
+               <l>I was reviled and called Whore,</l>
+               <l>Yet patiently their words I bore.</l>
+            </lg>
+            <lg>
+               <l>For my accuſing Conſcience cry'd,</l>
+               <l>That Vice had béen my ſinful guide,</l>
+               <l>Then let young Maids &amp; wives beware</l>
+               <l>And of their honour have a care.</l>
+               <l>Leſt they come to a wretched and,</l>
+               <l>If like to me they do offend.</l>
+            </lg>
+         </div>
+         <div type="song">
+            <pb facs="tcp:57752:8"/>
+            <head>A Song of a Beggar and a King.</head>
+            <opener>To the Tune of, <hi>Love will find out the way.</hi>
+            </opener>
+            <lg>
+               <l>
+                  <hi>A</hi> Prince once there reigned,</l>
+               <l>who did much delight,</l>
+               <l>who was poorly dight,</l>
+               <l>Let <hi>Cupid</hi> then be crowned</l>
+               <l>with Roſes ſo gay,</l>
+               <l>For his Bow ſo much renowned.</l>
+               <l>
+                  <hi>even Kings muſt obey.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>It happened at his window</l>
+               <l>this Beggar he eſpy'd.</l>
+               <l>And from thence to the Gate</l>
+               <l>of his Pallace he hyed,</l>
+               <l>His purſe then he caſteth,</l>
+               <l>to this Beggar in gray,</l>
+               <l>And unto her he haſteth,</l>
+               <l>
+                  <hi>Love will make Kings obey.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And then he imbraced</l>
+               <l>the Beggar ſo mean.</l>
+               <l>And on his Throne placed</l>
+               <l>her like to a Quéen,</l>
+               <l>While the Nobles attended</l>
+               <l>on their wedding day,</l>
+               <l>And thus all things ended,</l>
+               <l>
+                  <hi>Love will make Kings obey.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="sonnet">
+            <pb facs="tcp:57752:8"/>
+            <head>A lamentable Sonnet of the fall of the great Dutcheſs of <hi>Gloceſter, Wife</hi> to Duke <hi>Humphrey,</hi> ſhewing how ſhe did Pennance through <hi>London</hi> ſtreets bare-footed, with a Wax Candle in her hand, and how ſhe was baniſhed into the <hi>Iſle of Man,</hi> where ſhe died.</head>
+            <opener>To the Tune of, <hi>Queen Dido.</hi>
+            </opener>
+            <lg>
+               <l>COme hither now fair Ladies all,</l>
+               <l>and bring with you a tear fil'd eye,</l>
+               <l>That you may wéep to hear the fall,</l>
+               <l>of <hi>Elioner</hi> a Dutches high,</l>
+               <l>Whom good Duke <hi>Humphery</hi> made his bride,</l>
+               <l>And after by foul treaſon dy'd.</l>
+            </lg>
+            <lg>
+               <l>For him they murthered in his ſléep,</l>
+               <l>and being dead they ſeiz'd his Lands,</l>
+               <l>So that the Dutcheſs did nothing kéep,</l>
+               <l>for all was in King <hi>Henries</hi> hands;</l>
+               <l>Thus when that fortune once doth frown</l>
+               <l>The higheſt are thrown quickly down.</l>
+            </lg>
+            <lg>
+               <l>But ſhe that bore a Noble mind,</l>
+               <l>to practice witchcraft did intend,</l>
+               <l>That the Dukes murtherers ſhe might find</l>
+               <l>and bring them to a ſhameful end,</l>
+               <l>By black inchanting Arts to ſpill,</l>
+               <l>Their blood y<hi rend="sup">e</hi> did Duke <hi>Humphrey</hi> kill.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:57752:9"/>
+               <l>But when her practice once was known,</l>
+               <l>and notice of her purpoſe given:</l>
+               <l>Then by her puniſhment 'twas ſhown,</l>
+               <l>ſuch actions do diſpleaſe high Heaven.</l>
+               <l>For ſhe was doomed through each ſtréet</l>
+               <l>To go in Pennance in a ſhéet.</l>
+            </lg>
+            <lg>
+               <l>And to increaſe my grief and pain,</l>
+               <l>I judged was to leave that place</l>
+               <l>Where <hi>I</hi> had lived before in fame,</l>
+               <l>and like an Exile in diſgrace,</l>
+               <l>I to thée <hi>Iſle of Man</hi> was ſent,</l>
+               <l>To ſpend my dayes in Baniſhment.</l>
+               <l>Full nineteen Years <hi>I</hi> ſpent in grief,</l>
+               <l>and made mine eyes with tears to rain</l>
+               <l>Yet could my tears yeeld no relief,</l>
+               <l>for all my ſorrow was in vain.</l>
+               <l>Vnto the Iſle <hi>I</hi> was aſſign'd,</l>
+               <l>Till death did eaſe my troubled mind.</l>
+            </lg>
+            <lg>
+               <l>For after <hi>I</hi> had here ſuſtain'd</l>
+               <l>all hardneſs that one might indure,</l>
+               <l>Heavens hearing how <hi>I</hi> complain'd,</l>
+               <l>ſome pitty for me did procure;</l>
+               <l>And ſo an end of grief to make,</l>
+               <l>My ſoul into the Heavens to take.</l>
+            </lg>
+            <lg>
+               <l>Though in my life <hi>I</hi> had offended,</l>
+               <l>yet when that death approached nigh,</l>
+               <pb facs="tcp:57752:9"/>
+               <l>Into Chriſts hands <hi>I</hi> then commended</l>
+               <l>my ſoul for which he once did dye:</l>
+               <l>Thus Exile for my late offence</l>
+               <l>did ſave my ſoul by penitence.</l>
+            </lg>
+         </div>
+         <div type="sonnet">
+            <head>A Sonnet.
+<l>Wherein a Shepherd doth ſhow</l>
+               <l>His ſorrow, becauſe he cannot wooe.</l>
+            </head>
+            <opener>To the Tune of, <hi>In ſad and aſhly weeds.</hi>
+            </opener>
+            <lg>
+               <l>VVEep now mine eyes your fill,</l>
+               <l>for <hi>I</hi> my Oaten pipe will break</l>
+               <l>Let fighs reſound unto the hill</l>
+               <l>becauſe, alaſs <hi>I</hi> dare not ſpeak.</l>
+               <l>let Garlands now</l>
+               <l>of Cypreſs bough</l>
+               <l>My inward ſorrow ſhew,</l>
+               <l>ſince fondly <hi>I</hi>
+               </l>
+               <l>for love muſt dye,</l>
+               <l>
+                  <hi>Becauſe <hi>I</hi> cannot wooe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Some can with eaſe profeſs,</l>
+               <l>and in ſwéet words their love declare</l>
+               <l>Yet <hi>I</hi> alaſs cannot expreſs</l>
+               <l>My love to her that is ſo fair;</l>
+               <l>theſe flowry Plains</l>
+               <l>a Saint contains,</l>
+               <pb facs="tcp:57752:10"/>
+               <l>To whom all praiſe is due,</l>
+               <l>yet juſtly ſhe,</l>
+               <l>deſpiſeth me,</l>
+               <l>
+                  <hi>Becauſe <hi>I</hi> cannot wooe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Sometime I did retire</l>
+               <l>unto a ſpreading ſhady trée,</l>
+               <l>And think to cool my fire,</l>
+               <l>with gales that freſhly breathing be,</l>
+               <l>the Birds do ſing,</l>
+               <l>the woods do ring,</l>
+               <l>And all things pleaſure ſhew,</l>
+               <l>yet fondly <hi>I,</hi>
+               </l>
+               <l>for love muſt dye,</l>
+               <l>
+                  <hi>Becauſe I cannot wooe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Yet this of her I crave</l>
+               <l>that when death cloſeth up my eyes</l>
+               <l>She would come to my grave,</l>
+               <l>and not a Shepherds grief deſpiſe,</l>
+               <l>and on my Herſe</l>
+               <l>to write this Verſe,</l>
+               <l>
+                  <hi>Here <hi>Coridon</hi> ſo true,</hi>
+               </l>
+               <l>
+                  <hi>in love did die,</hi>
+               </l>
+               <l>
+                  <hi>and here doth lie,</hi>
+               </l>
+               <l>
+                  <hi>Becauſe he could not wooe.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>A ſong of the Lord <hi>Wigmore,</hi> and the fai<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Maid of <hi>Dunſmore</hi> in <hi>Warwick-ſhire,</hi> which
+<pb facs="tcp:57752:10"/> may be a warning to young Maids to ſhun the allurements of wanton Gallants</head>
+            <opener>To the Tune of, <hi>The Earl of Eſſexs laſt good Night.</hi>
+            </opener>
+            <lg>
+               <l>IN <hi>Warwick ſhire</hi> there ſtands a Down</l>
+               <l>and <hi>Dunſmore heath</hi> men do it call:</l>
+               <l>Where <hi>Iſabel</hi> of ſuch renown</l>
+               <l>for beauty did excel them all</l>
+               <l>A Shepherds Daughter ſhe was known</l>
+               <l>and fame abroad did make report,</l>
+               <l>That ſhe was like a Roſe new blown</l>
+               <l>and fit alone for <hi>Cupids</hi> Court.</l>
+               <l>
+                  <hi>And</hi> when young <hi>Wigmore</hi> heard y<hi rend="sup">e</hi> ſame</l>
+               <l>who then in <hi>Warwick</hi> Caſtle lay,</l>
+               <l>To <hi>Dunſmore</hi> then he forth with came,</l>
+               <l>to wooe this Maid without delay.</l>
+               <l>And found her by a river ſide,</l>
+               <l>ſitting amidſt a Meadow gréen,</l>
+               <l>But when her beauty once he ey'd,</l>
+               <l>he thought ſhe might have béen Loves Quéen.</l>
+            </lg>
+            <lg>
+               <l>Freſh beauty flouriſht in her chéek,</l>
+               <l>her hair was like to Amber fair:</l>
+               <l>And her behaviour was ſo méek,</l>
+               <l>that <hi>Wigmore</hi> did to her repair.</l>
+               <l>And wooed her in humble wiſe,</l>
+               <l>that ſhe would grant him but her love</l>
+               <l>And not his humble fute deſpiſe,</l>
+               <l>but that ſhe would of him approve,</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:57752:11"/>
+               <l>Lord <hi>Wigmore</hi> thus drown'd in his Luſt</l>
+               <l>did Like a Raviſher appear,</l>
+               <l>And bid a ſervant of great truſt,</l>
+               <l>that to his Caſtle he would her bear.</l>
+               <l>Thus to Lord <hi>Wigmore</hi> ſhe was brought</l>
+               <l>who fed his fancies with delight</l>
+               <l>&amp; by fair words ſuch means he wrought</l>
+               <l>that he got her maiden-head y<hi rend="sup">t</hi> night.</l>
+            </lg>
+            <lg>
+               <l>This being done, ſhe did repent,</l>
+               <l>that ſhe her ſelf had thus betrayd,</l>
+               <l>By granting of her frée conſent</l>
+               <l>to loſe the honour of a Maid.</l>
+               <l>But ere thrée Months were paſt &amp; gone,</l>
+               <l>her growing ſhame did then appear,</l>
+               <l>And to Lord <hi>Wigmore</hi> for his wrong,</l>
+               <l>ſhe did complain with many a tear.</l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>The ſad Complaint of fair <hi>Iſabel,</hi> for the loſs of her Maiden honour, at the end whereof like <hi>Roman Lucrece</hi> ſhe ſlew her ſelf.</head>
+            <opener>To the ſame Tune.</opener>
+            <lg>
+               <l>LOrd <hi>Wigmore</hi> pitty take on me,</l>
+               <l>&amp; ſince thou haſt obtain'd thy ſute,</l>
+               <l>Yet do not deſpiſe the Trée</l>
+               <l>now thou haſt got my Maiden fruit,</l>
+               <l>Thou ſpotteſt haſt my Virgin bed,</l>
+               <l>yet pitty take upon poor me.</l>
+               <pb facs="tcp:57752:11"/>
+               <l>Like withered Roſe, I hang my head,</l>
+               <l>
+                  <hi>Lord <hi>Wigmore,</hi> this is long of thee.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>My crime unto the world is known,</l>
+               <l>my wantonneſs is now deſcry'd:</l>
+               <l>My name to all is hateful grown</l>
+               <l>I wiſh I had thy love deny'd.</l>
+               <l>I know alaſs, when I do die,</l>
+               <l>my body in lead ſhall ſhrowded bée,</l>
+               <l>But what can cover my infamy;</l>
+               <l>
+                  <hi>Lord <hi>Wigmore,</hi> this is long of thee.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Beſpotted with reproachful ſhame</l>
+               <l>
+                  <hi>I</hi> crave my juſt deſerved doom:</l>
+               <l>That death may frée me from all blame</l>
+               <l>and cut me off even in the bloom.</l>
+               <l>I number now the tedious hours,</l>
+               <l>life is unpleaſant unto mée:</l>
+               <l>Let me then die you heavenly Powers,</l>
+               <l>
+                  <hi>Lord <hi>Wigmore,</hi> this is long of thee.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And when I die, let me be laid</l>
+               <l>in careleſs manner into the mould:</l>
+               <l>Vnpittied of each ſpotleſs Maid,</l>
+               <l>who to diſgrace my ſelf have ſold.</l>
+               <l>Let ne're a Bell ring forth my Knell,</l>
+               <l>for <hi>I</hi> am that unhappy ſhée,</l>
+               <l>That by the fair inticements fell,</l>
+               <l>
+                  <hi>Lord <hi>Wigmore,</hi> this is long of thee.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb facs="tcp:57752:12"/>
+               <l>When ſhe this woful moan had made,</l>
+               <l>a knife ſhe ſnatched from her ſide:</l>
+               <l>Where <hi>Lucreces</hi> part ſhe plainly plaid</l>
+               <l>and with the ſame ſhe did devide</l>
+               <l>Her ſoul from her fair bodies frame,</l>
+               <l>which parting, it did ſéem that ſhe</l>
+               <l>With her laſt vow, did thus complain,</l>
+               <l>
+                  <hi>Lord <hi>Wigmore,</hi> this is long of thee.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>The ſtory of Ill-May day, briefly expreſſed.</head>
+            <opener>To the Tune of, <hi>The Ladies Fall.</hi>
+            </opener>
+            <lg>
+               <l>IF you the reaſon of the Name</l>
+               <l>of <hi>Ill-May-day</hi> would know:</l>
+               <l>You ſhall thou underſtand the ſame</l>
+               <l>as here <hi>I</hi> will it ſhow.</l>
+               <l>For when King <hi>H<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nry</hi> Reigned here,</l>
+               <l>the Eight of that ſame Name:</l>
+               <l>The ſtrangers as it did appear.</l>
+               <l>by Prentic<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s were ſlain,</l>
+               <l>They making ſhow that their intent</l>
+               <l>was but to go a Maying:</l>
+               <l>Their force they on the ſtrangers bent,</l>
+               <l>and them they fell a ſlaying.</l>
+            </lg>
+            <lg>
+               <l>Theſe ſtrangers did come forth of <hi>Spain</hi>
+               </l>
+               <l>and did ſet up their Trade;</l>
+               <pb facs="tcp:57752:12"/>
+               <l>And ſo did make a private gain,</l>
+               <l>which <hi>Engliſh men</hi> had much diſmaid,</l>
+               <l>The Prentices then on <hi>May</hi> Eve,</l>
+               <l>did to a ſudden tumult grow,</l>
+               <l>But yet they made the Mayor beléeve</l>
+               <l>that they a <hi>Maying</hi> meant to go.</l>
+            </lg>
+            <lg>
+               <l>But ſuch a <hi>May-game</hi> they did make,</l>
+               <l>the like whereof was never known,</l>
+               <l>For all the Strangers they did take,</l>
+               <l>and kil'd of them full many a one.</l>
+               <l>And now it is by Law ordain'd,</l>
+               <l>that ſtill on <hi>May-daies</hi> Eve at night.</l>
+               <l>The Watch ſhall in their Armour ſtand</l>
+               <l>unruly Youths ſo to affright.</l>
+            </lg>
+         </div>
+         <div type="song">
+            <head>To his Sweet-heart, wherein he doth ſhow, why he ſo oft cries Hi, Ho.</head>
+            <l>YOu asked me, my dear Swéet-heart,</l>
+            <l>Why I ſigh'd; I will impart</l>
+            <l>The reaſon of it, and will ſhow,</l>
+            <l>Why <hi>I</hi> ſo often cry, <hi>Hi, ho.</hi>
+            </l>
+            <l>The former <hi>H</hi> ſtands for my heart,</l>
+            <l>The <hi>I</hi> is yours w<hi rend="sup">ch</hi> wrought my ſmart,</l>
+            <l>The laſt <hi>H</hi> your hard heart doth ſhow</l>
+            <l>The <hi>O</hi> the vowel is your <hi>No.</hi>
+            </l>
+            <l>Then blame me not, ſince now you know</l>
+            <l>Why <hi>I</hi> ſo often cry, <hi>Hi, ho.</hi>
+            </l>
+         </div>
+         <div type="song">
+            <pb facs="tcp:57752:13"/>
+            <head>A ſhort Song on a ſigh.</head>
+            <opener>To the Tune of, <hi>I warrant you I.</hi>
+            </opener>
+            <lg>
+               <l>IT is but in vain</l>
+               <l>With ſighs to complain,</l>
+               <l>And unto my ſelf</l>
+               <l>Strange paſſions to frame,</l>
+               <l>For I will be careleſs</l>
+               <l>Vntil <hi>I</hi> do die.</l>
+               <l>
+                  <hi>Let others grow Love-ſick</hi>
+               </l>
+               <l>
+                  <hi>but ſo will not <hi>I.</hi>
+                  </hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Let others lament</l>
+               <l>For <hi>I</hi> am content:</l>
+               <l>I can love for an hour</l>
+               <l>Till my humour is ſpent,</l>
+               <l>But when it is paſt,</l>
+               <l>All Love <hi>I</hi> defy.</l>
+               <l>
+                  <hi>For though ſome grow Love-ſick,</hi>
+               </l>
+               <l>
+                  <hi>yet ſo will not <hi>I.</hi>
+                  </hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:57752:13"/>
+         </div>
+      </body>
+   </text>
+</TEI>
